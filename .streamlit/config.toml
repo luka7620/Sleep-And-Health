@@ -1,0 +1,12 @@
+# Streamlit配置文件 - 浅色主题
+
+[theme]
+primaryColor = "#3498db"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f0f2f6"
+textColor = "#262730"
+font = "sans serif"
+
+[server]
+headless = true
+runOnSave = true

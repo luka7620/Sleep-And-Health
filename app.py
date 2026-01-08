@@ -186,10 +186,10 @@ with nav_col2:
     st.warning("**💔 健康风险评估**\n\nBMI、血压、心率等健康风险")
 
 with nav_col3:
-    st.success("**👥 人群差异洞察**\n\n性别、年龄等人群特征分析")
+    st.success("**🌟 综合睡眠指标**\n\n综合评分、维度分析与详细数据")
 
 with nav_col4:
-    st.error("**🔬 深度探索**\n\n睡眠障碍深度分析与原始数据")
+    st.error("**🔬 深度探索**\n\n睡眠障碍深度分析与数据清洗报告")
 
 # 页脚
 st.markdown("---")

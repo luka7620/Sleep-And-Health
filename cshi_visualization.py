@@ -29,22 +29,24 @@ setup_font()
 sns.set_style("whitegrid")
 if chinese_font: plt.rcParams['font.family'] = chinese_font.get_name()
 
-def create_cshi_distribution(df):
+def create_cshi_distribution(df, save_path=None):
     """1. CSHI 分数分布直方图"""
-    plt.figure(figsize=(10, 6))
+    fig, ax = plt.subplots(figsize=(10, 6))
     sns.histplot(data=df, x='CSHI_Score', hue='CSHI_Level', multiple='stack', 
                  palette={'优':'#2ecc71', '良':'#3498db', '一般':'#f1c40f', '差':'#e74c3c'},
-                 binwidth=2, kde=True)
+                 binwidth=2, kde=True, ax=ax)
     
-    plt.title('综合睡眠健康指数 (CSHI) 分布', fontsize=14, fontweight='bold')
-    plt.xlabel('综合分数 (0-100)')
-    plt.ylabel('人数')
+    ax.set_title('综合睡眠健康指数 (CSHI) 分布', fontsize=14, fontweight='bold')
+    ax.set_xlabel('综合分数 (0-100)')
+    ax.set_ylabel('人数')
     
     plt.tight_layout()
-    plt.savefig('cshi_distribution.png', dpi=300)
-    print("✓ 生成: cshi_distribution.png")
+    if save_path:
+        plt.savefig(save_path, dpi=300)
+        print(f"✓ 生成: {save_path}")
+    return fig
 
-def create_dimension_radar(df):
+def create_dimension_radar(df, save_path=None):
     """2. 综合维度雷达图 (不同CSHI等级的平均表现)"""
     # 准备数据
     levels = ['优', '良', '一般', '差']
@@ -72,14 +74,18 @@ def create_dimension_radar(df):
     ax.set_xticks(angles[:-1])
     ax.set_xticklabels(titles, fontproperties=chinese_font, fontsize=12)
     
-    plt.title('CSHI 各等级维度表现对比', fontsize=15, fontweight='bold', y=1.05)
-    plt.legend(bbox_to_anchor=(1.1, 1), loc='upper left')
+    # Use ax.set_title instead of plt.title for object-oriented approach consistency, 
+    # though plt.title works on current axes. 
+    ax.set_title('CSHI 各等级维度表现对比', fontsize=15, fontweight='bold', y=1.05)
+    ax.legend(bbox_to_anchor=(1.1, 1), loc='upper left')
     
     plt.tight_layout()
-    plt.savefig('cshi_radar.png', dpi=300)
-    print("✓ 生成: cshi_radar.png")
+    if save_path:
+        plt.savefig(save_path, dpi=300)
+        print(f"✓ 生成: {save_path}")
+    return fig
 
-def create_cshi_comparison_grid(df):
+def create_cshi_comparison_grid(df, save_path=None):
     """3. 多维度对比图 (性别/年龄/职业)"""
     fig, axes = plt.subplots(1, 3, figsize=(18, 6))
     
@@ -90,8 +96,9 @@ def create_cshi_comparison_grid(df):
     
     # 2. 年龄段对比
     # 创建年龄分桶
-    df['Age_Group'] = pd.cut(df['Age'], bins=[0, 30, 40, 50, 60, 100], 
-                            labels=['30岁以下', '30-40岁', '40-50岁', '50-60岁', '60岁以上'])
+    if 'Age_Group' not in df.columns:
+        df['Age_Group'] = pd.cut(df['Age'], bins=[0, 30, 40, 50, 60, 100], 
+                                labels=['30岁以下', '30-40岁', '40-50岁', '50-60岁', '60岁以上'])
     sns.boxplot(data=df, x='Age_Group', y='CSHI_Score', palette='Pastel1', ax=axes[1])
     axes[1].set_title('不同年龄段的 CSHI 分布', fontsize=12, fontweight='bold')
     axes[1].set_xlabel('年龄段')
@@ -107,8 +114,10 @@ def create_cshi_comparison_grid(df):
     axes[2].tick_params(axis='x', rotation=45)
     
     plt.tight_layout()
-    plt.savefig('cshi_comparison_grid.png', dpi=300)
-    print("✓ 生成: cshi_comparison_grid.png")
+    if save_path:
+        plt.savefig(save_path, dpi=300)
+        print(f"✓ 生成: {save_path}")
+    return fig
 
 def main():
     try:

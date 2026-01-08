@@ -1,0 +1,121 @@
+Person ID,Actual_Disorder,Apnea_Score,Apnea_Level,Apnea_Factors,Insomnia_Score,Insomnia_Level,Insomnia_Factors,Screened_Apnea,Actual_Apnea,Screened_Insomnia,Actual_Insomnia
+2,None,100,高风险 (High Risk),"['肥胖 (Obese)', '血压偏高 (131/86)', '年龄 > 35']",80,高风险 (High Risk),"['压力 (Level 5)', '睡眠严重不足 (4.2h)', '肥胖']",True,False,True,False
+5,Insomnia,80,高风险 (High Risk),"['超重 (Overweight)', '血压偏高 (133/78)', '年龄 > 35']",10,极低风险 (Minimal Risk),[],True,False,False,True
+7,None,75,中风险 (Medium Risk),"['肥胖 (Obese)', '高压力 (Level 6)']",80,高风险 (High Risk),"['压力 (Level 6)', '睡眠严重不足 (5.1h)', '肥胖']",True,False,True,False
+8,None,100,高风险 (High Risk),"['肥胖 (Obese)', '血压偏高 (134/87)', '高压力 (Level 8)', '年龄 > 35']",70,中风险 (Medium Risk),"['极高压力 (Level 8)', '肥胖']",True,False,True,False
+9,Sleep Apnea,15,极低风险 (Minimal Risk),['高压力 (Level 8)'],85,高风险 (High Risk),"['极高压力 (Level 8)', '体重过轻 (Underweight)']",False,True,True,False
+11,None,100,高风险 (High Risk),"['肥胖 (Obese)', '高血压 (138/92)', '高压力 (Level 6)', '年龄 > 35']",70,中风险 (Medium Risk),"['压力 (Level 6)', '睡眠严重不足 (5.4h)', '肥胖']",True,False,True,False
+13,Sleep Apnea,100,高风险 (High Risk),"['肥胖 (Obese)', '高血压 (137/90)', '高压力 (Level 9)', '年龄 > 35']",100,高风险 (High Risk),"['极高压力 (Level 9)', '睡眠严重不足 (4.1h)', '肥胖']",True,True,True,False
+14,None,35,低风险 (Low Risk),"['高压力 (Level 8)', '年龄 > 35']",85,高风险 (High Risk),"['极高压力 (Level 8)', '体重过轻 (Underweight)']",False,False,True,False
+15,None,35,低风险 (Low Risk),"['高压力 (Level 10)', '年龄 > 35']",100,高风险 (High Risk),"['极高压力 (Level 10)', '睡眠严重不足 (4.9h)', '体重过轻 (Underweight)']",False,False,True,False
+21,None,80,高风险 (High Risk),"['肥胖 (Obese)', '年龄 > 35']",50,低风险 (Low Risk),"['睡眠严重不足 (5.7h)', '肥胖']",True,False,False,False
+22,Insomnia,35,低风险 (Low Risk),"['高压力 (Level 8)', '年龄 > 35']",90,高风险 (High Risk),"['极高压力 (Level 8)', '睡眠严重不足 (4.1h)']",False,False,True,True
+23,None,100,高风险 (High Risk),"['肥胖 (Obese)', '血压偏高 (132/86)', '年龄 > 35']",60,中风险 (Medium Risk),"['睡眠严重不足 (5.1h)', '肥胖']",True,False,True,False
+26,None,80,高风险 (High Risk),"['超重 (Overweight)', '血压偏高 (130/85)', '年龄 > 35']",10,极低风险 (Minimal Risk),[],True,False,False,False
+28,None,100,高风险 (High Risk),"['超重 (Overweight)', '高血压 (140/86)', '高压力 (Level 7)', '年龄 > 35']",55,低风险 (Low Risk),['极高压力 (Level 7)'],True,False,False,False
+36,Insomnia,95,高风险 (High Risk),"['肥胖 (Obese)', '高压力 (Level 8)', '年龄 > 35']",70,中风险 (Medium Risk),"['极高压力 (Level 8)', '肥胖']",True,False,True,True
+37,None,15,极低风险 (Minimal Risk),['高压力 (Level 10)'],80,高风险 (High Risk),"['极高压力 (Level 10)', '睡眠严重不足 (4.7h)']",False,False,True,False
+39,None,75,中风险 (Medium Risk),"['肥胖 (Obese)', '高压力 (Level 8)']",80,高风险 (High Risk),"['极高压力 (Level 8)', '睡眠偏少 (6.0h)', '肥胖']",True,False,True,False
+40,None,100,高风险 (High Risk),"['肥胖 (Obese)', '血压偏高 (136/82)', '高压力 (Level 9)', '年龄 > 35']",60,中风险 (Medium Risk),"['极高压力 (Level 9)', '肥胖']",True,False,True,False
+41,Sleep Apnea,100,高风险 (High Risk),"['肥胖 (Obese)', '血压偏高 (131/77)', '年龄 > 35']",45,低风险 (Low Risk),"['睡眠偏少 (6.3h)', '肥胖']",True,True,False,False
+47,None,35,低风险 (Low Risk),"['高压力 (Level 8)', '年龄 > 35']",85,高风险 (High Risk),"['极高压力 (Level 8)', '体重过轻 (Underweight)']",False,False,True,False
+49,None,35,低风险 (Low Risk),"['高压力 (Level 10)', '年龄 > 35']",85,高风险 (High Risk),"['极高压力 (Level 10)', '体重过轻 (Underweight)']",False,False,True,False
+51,None,100,高风险 (High Risk),"['肥胖 (Obese)', '血压偏高 (138/88)', '高压力 (Level 6)', '年龄 > 35']",70,中风险 (Medium Risk),"['压力 (Level 6)', '睡眠严重不足 (4.2h)', '肥胖']",True,False,True,False
+52,None,100,高风险 (High Risk),"['肥胖 (Obese)', '血压偏高 (137/84)', '年龄 > 35']",35,低风险 (Low Risk),"['睡眠偏少 (6.1h)', '肥胖']",True,False,False,False
+57,None,100,高风险 (High Risk),"['肥胖 (Obese)', '血压偏高 (133/86)', '高压力 (Level 8)', '年龄 > 35']",80,高风险 (High Risk),"['极高压力 (Level 8)', '睡眠偏少 (6.7h)', '肥胖']",True,False,True,False
+63,None,80,高风险 (High Risk),"['肥胖 (Obese)', '年龄 > 35']",35,低风险 (Low Risk),"['压力 (Level 5)', '肥胖']",True,False,False,False
+72,Insomnia,15,极低风险 (Minimal Risk),['高压力 (Level 7)'],100,高风险 (High Risk),"['极高压力 (Level 7)', '睡眠严重不足 (4.7h)', '体重过轻 (Underweight)']",False,False,True,True
+77,None,15,极低风险 (Minimal Risk),['高压力 (Level 6)'],95,高风险 (High Risk),"['压力 (Level 6)', '睡眠严重不足 (5.5h)', '体重过轻 (Underweight)']",False,False,True,False
+78,None,35,低风险 (Low Risk),"['高压力 (Level 10)', '年龄 > 35']",85,高风险 (High Risk),"['极高压力 (Level 10)', '体重过轻 (Underweight)']",False,False,True,False
+80,Insomnia,100,高风险 (High Risk),"['肥胖 (Obese)', '血压偏高 (131/78)', '年龄 > 35']",45,低风险 (Low Risk),"['压力 (Level 5)', '肥胖']",True,False,False,True
+83,None,80,高风险 (High Risk),"['超重 (Overweight)', '血压偏高 (136/86)', '年龄 > 35']",10,极低风险 (Minimal Risk),[],True,False,False,False
+88,None,35,低风险 (Low Risk),"['高压力 (Level 10)', '年龄 > 35']",85,高风险 (High Risk),"['极高压力 (Level 10)', '体重过轻 (Underweight)']",False,False,True,False
+98,None,100,高风险 (High Risk),"['肥胖 (Obese)', '血压偏高 (133/78)', '年龄 > 35']",45,低风险 (Low Risk),"['睡眠偏少 (6.4h)', '肥胖']",True,False,False,False
+101,None,100,高风险 (High Risk),"['肥胖 (Obese)', '高血压 (145/93)', '高压力 (Level 8)', '年龄 > 35']",70,中风险 (Medium Risk),"['极高压力 (Level 8)', '肥胖']",True,False,True,False
+107,None,35,低风险 (Low Risk),"['高压力 (Level 8)', '年龄 > 35']",80,高风险 (High Risk),"['极高压力 (Level 8)', '睡眠严重不足 (4.3h)']",False,False,True,False
+108,None,35,低风险 (Low Risk),"['高压力 (Level 10)', '年龄 > 35']",85,高风险 (High Risk),"['极高压力 (Level 10)', '体重过轻 (Underweight)']",False,False,True,False
+110,Insomnia,20,极低风险 (Minimal Risk),['年龄 > 35'],95,高风险 (High Risk),"['压力 (Level 5)', '睡眠严重不足 (5.0h)', '体重过轻 (Underweight)']",False,False,True,True
+118,Sleep Apnea,35,低风险 (Low Risk),"['高压力 (Level 9)', '年龄 > 35']",85,高风险 (High Risk),"['极高压力 (Level 9)', '体重过轻 (Underweight)']",False,True,True,False
+119,None,95,高风险 (High Risk),"['超重 (Overweight)', '血压偏高 (130/81)', '高压力 (Level 7)', '年龄 > 35']",65,中风险 (Medium Risk),"['极高压力 (Level 7)', '睡眠偏少 (6.6h)']",True,False,True,False
+125,Insomnia,100,高风险 (High Risk),"['肥胖 (Obese)', '血压偏高 (131/88)', '年龄 > 35']",25,极低风险 (Minimal Risk),['肥胖'],True,False,False,True
+130,None,100,高风险 (High Risk),"['肥胖 (Obese)', '血压偏高 (134/82)', '高压力 (Level 8)', '年龄 > 35']",70,中风险 (Medium Risk),"['极高压力 (Level 8)', '肥胖']",True,False,True,False
+131,None,95,高风险 (High Risk),"['超重 (Overweight)', '血压偏高 (131/87)', '高压力 (Level 7)', '年龄 > 35']",45,低风险 (Low Risk),['极高压力 (Level 7)'],True,False,False,False
+133,None,100,高风险 (High Risk),"['肥胖 (Obese)', '高血压 (145/93)', '高压力 (Level 9)', '年龄 > 35']",70,中风险 (Medium Risk),"['极高压力 (Level 9)', '肥胖']",True,False,True,False
+135,Sleep Apnea,80,高风险 (High Risk),"['肥胖 (Obese)', '年龄 > 35']",15,极低风险 (Minimal Risk),['肥胖'],True,True,False,False
+144,None,0,极低风险 (Minimal Risk),[],95,高风险 (High Risk),"['压力 (Level 5)', '睡眠严重不足 (4.9h)', '体重过轻 (Underweight)']",False,False,True,False
+147,None,100,高风险 (High Risk),"['肥胖 (Obese)', '高血压 (136/95)', '年龄 > 35']",55,低风险 (Low Risk),"['压力 (Level 5)', '睡眠偏少 (6.4h)', '肥胖']",True,False,False,False
+152,None,100,高风险 (High Risk),"['肥胖 (Obese)', '血压偏高 (134/86)', '高压力 (Level 7)', '年龄 > 35']",60,中风险 (Medium Risk),"['极高压力 (Level 7)', '肥胖']",True,False,True,False
+158,None,95,高风险 (High Risk),"['肥胖 (Obese)', '高压力 (Level 6)', '年龄 > 35']",80,高风险 (High Risk),"['压力 (Level 6)', '睡眠严重不足 (4.7h)', '肥胖']",True,False,True,False
+159,None,95,高风险 (High Risk),"['肥胖 (Obese)', '高压力 (Level 7)', '年龄 > 35']",60,中风险 (Medium Risk),"['极高压力 (Level 7)', '肥胖']",True,False,True,False
+163,None,100,高风险 (High Risk),"['肥胖 (Obese)', '血压偏高 (139/79)', '年龄 > 35']",15,极低风险 (Minimal Risk),['肥胖'],True,False,False,False
+167,None,100,高风险 (High Risk),"['肥胖 (Obese)', '血压偏高 (132/80)', '年龄 > 35']",25,极低风险 (Minimal Risk),['肥胖'],True,False,False,False
+171,None,55,低风险 (Low Risk),"['超重 (Overweight)', '高压力 (Level 8)']",90,高风险 (High Risk),"['极高压力 (Level 8)', '睡眠严重不足 (5.8h)']",False,False,True,False
+172,Insomnia,55,低风险 (Low Risk),"['血压偏高 (135/86)', '高压力 (Level 8)', '年龄 > 35']",90,高风险 (High Risk),"['极高压力 (Level 8)', '睡眠严重不足 (5.4h)']",False,False,True,True
+173,None,15,极低风险 (Minimal Risk),['高压力 (Level 10)'],100,高风险 (High Risk),"['极高压力 (Level 10)', '睡眠严重不足 (5.8h)', '体重过轻 (Underweight)']",False,False,True,False
+175,Sleep Apnea,100,高风险 (High Risk),"['肥胖 (Obese)', '高血压 (138/93)', '高压力 (Level 7)', '年龄 > 35']",60,中风险 (Medium Risk),"['极高压力 (Level 7)', '肥胖']",True,True,True,False
+177,None,35,低风险 (Low Risk),"['高压力 (Level 9)', '年龄 > 35']",100,高风险 (High Risk),"['极高压力 (Level 9)', '睡眠严重不足 (4.5h)', '体重过轻 (Underweight)']",False,False,True,False
+181,None,100,高风险 (High Risk),"['肥胖 (Obese)', '血压偏高 (130/87)', '高压力 (Level 10)', '年龄 > 35']",70,中风险 (Medium Risk),"['极高压力 (Level 10)', '肥胖']",True,False,True,False
+183,None,35,低风险 (Low Risk),"['高压力 (Level 9)', '年龄 > 35']",85,高风险 (High Risk),"['极高压力 (Level 9)', '体重过轻 (Underweight)']",False,False,True,False
+184,Sleep Apnea,80,高风险 (High Risk),"['肥胖 (Obese)', '年龄 > 35']",15,极低风险 (Minimal Risk),['肥胖'],True,True,False,False
+186,Insomnia,35,低风险 (Low Risk),"['高压力 (Level 9)', '年龄 > 35']",100,高风险 (High Risk),"['极高压力 (Level 9)', '睡眠严重不足 (5.2h)', '体重过轻 (Underweight)']",False,False,True,True
+188,Insomnia,15,极低风险 (Minimal Risk),['高压力 (Level 9)'],90,高风险 (High Risk),"['极高压力 (Level 9)', '睡眠严重不足 (5.8h)']",False,False,True,True
+191,None,35,低风险 (Low Risk),"['高压力 (Level 8)', '年龄 > 35']",85,高风险 (High Risk),"['极高压力 (Level 8)', '体重过轻 (Underweight)']",False,False,True,False
+195,Insomnia,75,中风险 (Medium Risk),"['肥胖 (Obese)', '高压力 (Level 8)']",80,高风险 (High Risk),"['极高压力 (Level 8)', '睡眠偏少 (6.1h)', '肥胖']",True,False,True,True
+198,None,80,高风险 (High Risk),"['肥胖 (Obese)', '年龄 > 35']",25,极低风险 (Minimal Risk),['肥胖'],True,False,False,False
+199,None,100,高风险 (High Risk),"['肥胖 (Obese)', '高血压 (132/92)', '高压力 (Level 8)', '年龄 > 35']",60,中风险 (Medium Risk),"['极高压力 (Level 8)', '肥胖']",True,False,True,False
+209,Insomnia,100,高风险 (High Risk),"['肥胖 (Obese)', '血压偏高 (133/86)', '年龄 > 35']",50,低风险 (Low Risk),"['睡眠严重不足 (4.6h)', '肥胖']",True,False,False,True
+212,Sleep Apnea,75,中风险 (Medium Risk),"['超重 (Overweight)', '高压力 (Level 9)', '年龄 > 35']",90,高风险 (High Risk),"['极高压力 (Level 9)', '睡眠严重不足 (4.6h)']",True,True,True,False
+227,Insomnia,95,高风险 (High Risk),"['超重 (Overweight)', '血压偏高 (136/82)', '高压力 (Level 9)', '年龄 > 35']",55,低风险 (Low Risk),['极高压力 (Level 9)'],True,False,False,True
+229,None,80,高风险 (High Risk),"['肥胖 (Obese)', '血压偏高 (123/87)']",25,极低风险 (Minimal Risk),['肥胖'],True,False,False,False
+236,None,100,高风险 (High Risk),"['肥胖 (Obese)', '高血压 (144/89)', '高压力 (Level 8)', '年龄 > 35']",100,高风险 (High Risk),"['极高压力 (Level 8)', '睡眠严重不足 (4.2h)', '肥胖']",True,False,True,False
+237,None,100,高风险 (High Risk),"['肥胖 (Obese)', '高血压 (137/96)', '高压力 (Level 6)', '年龄 > 35']",45,低风险 (Low Risk),"['压力 (Level 6)', '肥胖']",True,False,False,False
+238,Insomnia,15,极低风险 (Minimal Risk),['高压力 (Level 9)'],100,高风险 (High Risk),"['极高压力 (Level 9)', '睡眠严重不足 (5.0h)', '体重过轻 (Underweight)']",False,False,True,True
+243,None,100,高风险 (High Risk),"['肥胖 (Obese)', '高血压 (138/92)', '高压力 (Level 8)', '年龄 > 35']",60,中风险 (Medium Risk),"['极高压力 (Level 8)', '肥胖']",True,False,True,False
+246,None,95,高风险 (High Risk),"['超重 (Overweight)', '血压偏高 (130/86)', '高压力 (Level 6)', '年龄 > 35']",40,低风险 (Low Risk),"['压力 (Level 6)', '睡眠偏少 (6.3h)']",True,False,False,False
+248,None,95,高风险 (High Risk),"['超重 (Overweight)', '血压偏高 (129/85)', '高压力 (Level 9)', '年龄 > 35']",45,低风险 (Low Risk),['极高压力 (Level 9)'],True,False,False,False
+251,Insomnia,35,低风险 (Low Risk),"['高压力 (Level 7)', '年龄 > 35']",85,高风险 (High Risk),"['极高压力 (Level 7)', '体重过轻 (Underweight)']",False,False,True,True
+254,None,35,低风险 (Low Risk),"['高压力 (Level 6)', '年龄 > 35']",85,高风险 (High Risk),"['压力 (Level 6)', '睡眠严重不足 (4.9h)', '体重过轻 (Underweight)']",False,False,True,False
+257,None,100,高风险 (High Risk),"['肥胖 (Obese)', '血压偏高 (130/77)', '年龄 > 35']",15,极低风险 (Minimal Risk),['肥胖'],True,False,False,False
+259,None,100,高风险 (High Risk),"['肥胖 (Obese)', '血压偏高 (135/88)', '年龄 > 35']",25,极低风险 (Minimal Risk),['肥胖'],True,False,False,False
+264,None,55,低风险 (Low Risk),"['超重 (Overweight)', '高压力 (Level 7)']",90,高风险 (High Risk),"['极高压力 (Level 7)', '睡眠严重不足 (4.5h)']",False,False,True,False
+268,None,100,高风险 (High Risk),"['肥胖 (Obese)', '血压偏高 (130/73)', '高压力 (Level 9)', '年龄 > 35']",70,中风险 (Medium Risk),"['极高压力 (Level 9)', '肥胖']",True,False,True,False
+271,Insomnia,95,高风险 (High Risk),"['肥胖 (Obese)', '高压力 (Level 6)', '年龄 > 35']",80,高风险 (High Risk),"['压力 (Level 6)', '睡眠严重不足 (4.4h)', '肥胖']",True,False,True,True
+277,None,100,高风险 (High Risk),"['肥胖 (Obese)', '血压偏高 (137/84)', '高压力 (Level 9)', '年龄 > 35']",70,中风险 (Medium Risk),"['极高压力 (Level 9)', '肥胖']",True,False,True,False
+283,None,95,高风险 (High Risk),"['超重 (Overweight)', '血压偏高 (131/80)', '高压力 (Level 8)', '年龄 > 35']",55,低风险 (Low Risk),['极高压力 (Level 8)'],True,False,False,False
+285,None,100,高风险 (High Risk),"['肥胖 (Obese)', '高血压 (142/89)', '高压力 (Level 6)', '年龄 > 35']",65,中风险 (Medium Risk),"['压力 (Level 6)', '睡眠偏少 (6.2h)', '肥胖']",True,False,True,False
+288,None,95,高风险 (High Risk),"['肥胖 (Obese)', '高压力 (Level 8)', '年龄 > 35']",70,中风险 (Medium Risk),"['极高压力 (Level 8)', '肥胖']",True,False,True,False
+292,None,75,中风险 (Medium Risk),"['超重 (Overweight)', '高压力 (Level 7)', '年龄 > 35']",90,高风险 (High Risk),"['极高压力 (Level 7)', '睡眠严重不足 (5.8h)']",True,False,True,False
+294,None,100,高风险 (High Risk),"['肥胖 (Obese)', '血压偏高 (135/77)', '年龄 > 35']",45,低风险 (Low Risk),"['压力 (Level 5)', '肥胖']",True,False,False,False
+296,None,15,极低风险 (Minimal Risk),['高压力 (Level 10)'],95,高风险 (High Risk),"['极高压力 (Level 10)', '睡眠偏少 (6.2h)', '体重过轻 (Underweight)']",False,False,True,False
+298,Insomnia,55,低风险 (Low Risk),"['超重 (Overweight)', '高压力 (Level 9)']",90,高风险 (High Risk),"['极高压力 (Level 9)', '睡眠严重不足 (5.2h)']",False,False,True,True
+302,None,100,高风险 (High Risk),"['肥胖 (Obese)', '血压偏高 (133/84)', '年龄 > 35']",25,极低风险 (Minimal Risk),['肥胖'],True,False,False,False
+305,None,95,高风险 (High Risk),"['肥胖 (Obese)', '高压力 (Level 8)', '年龄 > 35']",60,中风险 (Medium Risk),"['极高压力 (Level 8)', '肥胖']",True,False,True,False
+309,None,100,高风险 (High Risk),"['肥胖 (Obese)', '高血压 (144/94)', '高压力 (Level 7)', '年龄 > 35']",100,高风险 (High Risk),"['极高压力 (Level 7)', '睡眠严重不足 (5.7h)', '肥胖']",True,False,True,False
+310,None,75,中风险 (Medium Risk),"['超重 (Overweight)', '高压力 (Level 9)', '年龄 > 35']",80,高风险 (High Risk),"['极高压力 (Level 9)', '睡眠严重不足 (4.2h)']",True,False,True,False
+313,None,80,高风险 (High Risk),"['肥胖 (Obese)', '年龄 > 35']",25,极低风险 (Minimal Risk),['肥胖'],True,False,False,False
+316,None,35,低风险 (Low Risk),"['高压力 (Level 8)', '年龄 > 35']",80,高风险 (High Risk),"['极高压力 (Level 8)', '睡眠严重不足 (5.5h)']",False,False,True,False
+319,Insomnia,80,高风险 (High Risk),"['肥胖 (Obese)', '年龄 > 35']",15,极低风险 (Minimal Risk),['肥胖'],True,False,False,True
+322,None,95,高风险 (High Risk),"['超重 (Overweight)', '血压偏高 (130/77)', '高压力 (Level 10)', '年龄 > 35']",45,低风险 (Low Risk),['极高压力 (Level 10)'],True,False,False,False
+324,None,75,中风险 (Medium Risk),"['超重 (Overweight)', '高压力 (Level 8)', '年龄 > 35']",80,高风险 (High Risk),"['极高压力 (Level 8)', '睡眠严重不足 (4.3h)']",True,False,True,False
+326,None,100,高风险 (High Risk),"['肥胖 (Obese)', '血压偏高 (132/81)', '高压力 (Level 7)', '年龄 > 35']",70,中风险 (Medium Risk),"['极高压力 (Level 7)', '肥胖']",True,False,True,False
+329,None,100,高风险 (High Risk),"['肥胖 (Obese)', '血压偏高 (129/88)', '年龄 > 35']",60,中风险 (Medium Risk),"['睡眠严重不足 (4.9h)', '肥胖']",True,False,True,False
+337,None,80,高风险 (High Risk),"['超重 (Overweight)', '血压偏高 (132/85)', '年龄 > 35']",50,低风险 (Low Risk),"['压力 (Level 5)', '睡眠偏少 (6.2h)']",True,False,False,False
+339,Insomnia,100,高风险 (High Risk),"['肥胖 (Obese)', '血压偏高 (129/85)', '高压力 (Level 8)', '年龄 > 35']",80,高风险 (High Risk),"['极高压力 (Level 8)', '睡眠偏少 (6.5h)', '肥胖']",True,False,True,True
+341,None,100,高风险 (High Risk),"['肥胖 (Obese)', '血压偏高 (130/81)', '年龄 > 35']",50,低风险 (Low Risk),"['睡眠严重不足 (4.1h)', '肥胖']",True,False,False,False
+343,None,95,高风险 (High Risk),"['超重 (Overweight)', '血压偏高 (131/81)', '高压力 (Level 10)', '年龄 > 35']",45,低风险 (Low Risk),['极高压力 (Level 10)'],True,False,False,False
+346,None,95,高风险 (High Risk),"['肥胖 (Obese)', '高压力 (Level 7)', '年龄 > 35']",80,高风险 (High Risk),"['极高压力 (Level 7)', '睡眠偏少 (6.3h)', '肥胖']",True,False,True,False
+349,Sleep Apnea,100,高风险 (High Risk),"['肥胖 (Obese)', '血压偏高 (136/89)', '高压力 (Level 10)', '年龄 > 35']",70,中风险 (Medium Risk),"['极高压力 (Level 10)', '肥胖']",True,True,True,False
+357,Sleep Apnea,100,高风险 (High Risk),"['肥胖 (Obese)', '血压偏高 (130/82)', '高压力 (Level 9)', '年龄 > 35']",70,中风险 (Medium Risk),"['极高压力 (Level 9)', '肥胖']",True,True,True,False
+361,None,100,高风险 (High Risk),"['肥胖 (Obese)', '血压偏高 (128/88)', '高压力 (Level 6)', '年龄 > 35']",55,低风险 (Low Risk),"['压力 (Level 6)', '睡眠偏少 (6.6h)', '肥胖']",True,False,False,False
+364,None,100,高风险 (High Risk),"['肥胖 (Obese)', '血压偏高 (135/89)', '高压力 (Level 6)', '年龄 > 35']",65,中风险 (Medium Risk),"['压力 (Level 6)', '睡眠偏少 (6.8h)', '肥胖']",True,False,True,False
+366,None,55,低风险 (Low Risk),"['超重 (Overweight)', '高压力 (Level 8)']",80,高风险 (High Risk),"['极高压力 (Level 8)', '睡眠严重不足 (4.6h)']",False,False,True,False
+369,None,15,极低风险 (Minimal Risk),['高压力 (Level 9)'],85,高风险 (High Risk),"['极高压力 (Level 9)', '体重过轻 (Underweight)']",False,False,True,False
+372,None,75,中风险 (Medium Risk),"['超重 (Overweight)', '高压力 (Level 7)', '年龄 > 35']",90,高风险 (High Risk),"['极高压力 (Level 7)', '睡眠严重不足 (5.6h)']",True,False,True,False
+374,Insomnia,0,极低风险 (Minimal Risk),[],95,高风险 (High Risk),"['压力 (Level 5)', '睡眠严重不足 (4.8h)', '体重过轻 (Underweight)']",False,False,True,True
+377,Insomnia,35,低风险 (Low Risk),"['高压力 (Level 9)', '年龄 > 35']",100,高风险 (High Risk),"['极高压力 (Level 9)', '睡眠严重不足 (4.3h)', '体重过轻 (Underweight)']",False,False,True,True
+379,Insomnia,35,低风险 (Low Risk),"['高压力 (Level 8)', '年龄 > 35']",100,高风险 (High Risk),"['极高压力 (Level 8)', '睡眠严重不足 (4.4h)', '体重过轻 (Underweight)']",False,False,True,True
+387,None,35,低风险 (Low Risk),"['高压力 (Level 7)', '年龄 > 35']",100,高风险 (High Risk),"['极高压力 (Level 7)', '睡眠严重不足 (4.6h)', '体重过轻 (Underweight)']",False,False,True,False
+395,Insomnia,100,高风险 (High Risk),"['肥胖 (Obese)', '高血压 (134/92)', '高压力 (Level 9)', '年龄 > 35']",95,高风险 (High Risk),"['极高压力 (Level 9)', '睡眠严重不足 (4.7h)', '肥胖']",True,False,True,True
+396,Sleep Apnea,35,低风险 (Low Risk),"['高压力 (Level 7)', '年龄 > 35']",90,高风险 (High Risk),"['极高压力 (Level 7)', '睡眠严重不足 (4.5h)']",False,True,True,False
+397,Insomnia,100,高风险 (High Risk),"['肥胖 (Obese)', '血压偏高 (132/80)', '高压力 (Level 8)', '年龄 > 35']",90,高风险 (High Risk),"['极高压力 (Level 8)', '睡眠偏少 (6.0h)', '肥胖']",True,False,True,True
+398,Insomnia,75,中风险 (Medium Risk),"['肥胖 (Obese)', '高压力 (Level 10)']",100,高风险 (High Risk),"['极高压力 (Level 10)', '睡眠严重不足 (5.3h)', '肥胖']",True,False,True,True

@@ -1,0 +1,60 @@
+Person ID,Gender,Age,Occupation,Sleep Duration (hours),Quality of Sleep (scale: 1-10),Physical Activity Level (minutes/day),Stress Level (scale: 1-10),BMI Category,Blood Pressure (systolic/diastolic),Heart Rate (bpm),Daily Steps,Sleep Disorder,Data_Quality_Flag,Anomaly_Type
+4,Male,29,Office Worker,8.3,10.0,20,10,Obese,124/72,55,6886,,Anomaly,STRESS_SLEEP_6.1
+16,Male,68,Student,8.6,9.1,98,10,Overweight,134/79,96,14180,,Anomaly,STRESS_SLEEP_6.1
+17,Female,36,Student,6.2,3.5,31,1,Obese,128/78,64,18140,,Anomaly,STRESS_SLEEP_6.2
+18,Female,28,Manual Labor,8.4,3.1,39,2,Overweight,114/65,53,2922,,Anomaly,STRESS_SLEEP_6.2
+30,Female,27,Retired,11.3,8.8,21,7,Overweight,113/63,69,5748,,Anomaly,AGE_OCCUPATION_1.2
+34,Female,50,Office Worker,4.4,6.5,30,5,Obese,135/86,98,18034,,Anomaly,STEPS_ACTIVITY_9.1
+58,Male,90,Student,10.2,5.1,88,6,Normal,145/96,68,16908,Sleep Apnea,Anomaly,AGE_OCCUPATION_1.3
+69,Female,74,Student,6.2,5.5,52,9,Overweight,137/95,100,16334,Insomnia,Anomaly,AGE_OCCUPATION_1.3
+81,Male,40,Manual Labor,10.5,8.0,117,9,Underweight,120/73,86,13618,,Anomaly,STRESS_SLEEP_6.1
+85,Male,18,Manual Labor,6.0,8.2,120,9,Obese,119/66,51,11788,,Anomaly,STRESS_SLEEP_6.1
+97,Female,66,Retired,9.6,10.0,113,9,Underweight,133/89,71,7741,Insomnia,Anomaly,STRESS_SLEEP_6.1
+99,Female,21,Retired,11.4,6.4,105,9,Obese,120/67,62,8838,,Anomaly,AGE_OCCUPATION_1.2
+105,Female,59,Student,6.6,9.3,19,10,Underweight,129/81,53,16211,,Anomaly,STRESS_SLEEP_6.1
+106,Female,29,Retired,10.6,3.7,30,5,Underweight,114/67,77,7232,,Anomaly,AGE_OCCUPATION_1.2
+114,Female,21,Retired,9.8,6.9,18,9,Overweight,110/60,87,5716,,Anomaly,AGE_OCCUPATION_1.2
+117,Male,33,Student,8.3,8.4,115,10,Obese,126/85,97,2570,,Anomaly,STRESS_SLEEP_6.1
+120,Male,18,Retired,9.0,7.4,63,6,Normal,109/68,98,12066,,Anomaly,AGE_OCCUPATION_1.2
+127,Female,41,Retired,11.0,3.8,29,2,Obese,130/82,94,6529,,Anomaly,STRESS_SLEEP_6.2
+142,Male,52,Retired,9.9,10.0,108,9,Obese,136/87,73,6108,Insomnia,Anomaly,STRESS_SLEEP_6.1
+146,Male,44,Retired,6.3,10.0,94,9,Overweight,122/62,81,14583,,Anomaly,STRESS_SLEEP_6.1
+149,Male,27,Retired,4.3,7.2,112,4,Obese,123/63,85,15455,,Anomaly,AGE_OCCUPATION_1.2
+157,Male,48,Retired,10.3,2.6,54,1,Underweight,124/82,98,18848,Sleep Apnea,Anomaly,STRESS_SLEEP_6.2
+160,Female,56,Office Worker,11.0,3.8,80,2,Underweight,128/76,55,17160,Insomnia,Anomaly,STRESS_SLEEP_6.2
+185,Male,27,Retired,9.6,6.1,33,7,Obese,123/76,96,18575,,Anomaly,AGE_OCCUPATION_1.2
+194,Male,43,Office Worker,11.0,7.8,28,4,Normal,121/72,55,18351,Insomnia,Anomaly,STEPS_ACTIVITY_9.1
+210,Male,62,Student,5.8,10.0,26,9,Overweight,131/78,85,12335,,Anomaly,STRESS_SLEEP_6.1
+224,Female,28,Office Worker,9.3,4.0,25,1,Obese,124/75,92,7208,,Anomaly,STRESS_SLEEP_6.2
+230,Male,31,Student,9.4,2.9,86,1,Overweight,115/65,52,8094,,Anomaly,STRESS_SLEEP_6.2
+233,Female,28,Retired,5.3,2.0,118,1,Obese,124/68,96,5103,,Anomaly,AGE_OCCUPATION_1.2
+239,Male,26,Retired,6.7,4.6,51,3,Underweight,113/66,100,2446,Insomnia,Anomaly,AGE_OCCUPATION_1.2
+245,Male,18,Retired,4.1,6.3,73,3,Overweight,109/65,96,13151,,Anomaly,AGE_OCCUPATION_1.2
+261,Male,18,Retired,4.8,6.3,33,9,Underweight,109/60,98,2269,,Anomaly,AGE_OCCUPATION_1.2
+269,Male,70,Retired,6.8,3.8,117,2,Normal,135/82,64,5262,,Anomaly,STRESS_SLEEP_6.2
+270,Male,66,Student,9.0,1.7,69,1,Underweight,133/91,78,3445,Insomnia,Anomaly,STRESS_SLEEP_6.2
+272,Female,54,Office Worker,11.0,10.0,40,10,Obese,137/92,81,11949,Insomnia,Anomaly,STRESS_SLEEP_6.1
+279,Male,22,Retired,4.2,6.5,33,3,Underweight,111/60,78,13874,Sleep Apnea,Anomaly,AGE_OCCUPATION_1.2
+286,Male,19,Retired,12.0,4.2,44,1,Normal,109/60,90,18691,Insomnia,Anomaly,AGE_OCCUPATION_1.2
+293,Male,20,Retired,4.7,8.8,63,5,Underweight,110/60,90,4985,,Anomaly,AGE_OCCUPATION_1.2
+304,Female,28,Retired,6.2,7.0,116,1,Obese,124/76,51,7447,,Anomaly,AGE_OCCUPATION_1.2
+308,Female,22,Retired,5.8,5.7,66,7,Underweight,111/61,55,13949,Sleep Apnea,Anomaly,AGE_OCCUPATION_1.2
+327,Male,86,Student,10.4,1.0,35,7,Overweight,143/95,68,4828,,Anomaly,AGE_OCCUPATION_1.3
+331,Male,18,Retired,9.5,3.7,46,2,Underweight,109/65,53,15778,,Anomaly,AGE_OCCUPATION_1.2
+332,Male,43,Retired,7.4,2.4,67,2,Obese,131/88,60,8771,,Anomaly,STRESS_SLEEP_6.2
+333,Female,28,Manual Labor,5.6,7.1,30,4,Normal,114/72,80,18526,,Anomaly,STEPS_ACTIVITY_9.1
+334,Male,18,Retired,7.9,7.5,91,1,Underweight,109/60,92,5435,,Anomaly,AGE_OCCUPATION_1.2
+336,Female,23,Manual Labor,8.7,1.0,12,2,Overweight,111/60,76,14852,,Anomaly,STRESS_SLEEP_6.2
+345,Male,24,Student,8.8,8.4,21,9,Normal,112/60,64,15409,Sleep Apnea,Anomaly,STRESS_SLEEP_6.1
+347,Male,26,Retired,9.6,5.9,50,2,Obese,123/75,74,5871,,Anomaly,AGE_OCCUPATION_1.2
+352,Male,48,Office Worker,4.8,9.4,80,10,Normal,124/79,97,5303,,Anomaly,STRESS_SLEEP_6.1
+353,Male,30,Student,5.9,3.3,95,2,Underweight,115/64,94,18061,,Anomaly,STRESS_SLEEP_6.2
+356,Male,27,Retired,8.0,5.6,33,9,Overweight,113/67,66,12655,,Anomaly,AGE_OCCUPATION_1.2
+373,Female,28,Student,5.3,10.0,74,10,Underweight,114/67,70,6763,,Anomaly,STRESS_SLEEP_6.1
+375,Male,18,Retired,9.1,5.3,94,5,Underweight,109/60,85,11221,Insomnia,Anomaly,AGE_OCCUPATION_1.2
+380,Male,18,Retired,8.3,4.7,75,9,Overweight,109/65,61,11765,,Anomaly,AGE_OCCUPATION_1.2
+385,Male,27,Retired,6.7,8.0,48,4,Normal,113/60,57,2307,,Anomaly,AGE_OCCUPATION_1.2
+388,Male,31,Manual Labor,11.2,9.0,97,9,Overweight,115/64,94,3251,,Anomaly,STRESS_SLEEP_6.1
+390,Male,23,Retired,10.5,5.5,49,6,Obese,121/78,79,19901,Insomnia,Anomaly,AGE_OCCUPATION_1.2
+391,Male,47,Retired,7.6,8.7,47,10,Normal,123/68,79,8226,,Anomaly,STRESS_SLEEP_6.1
+399,Female,41,Retired,11.0,9.1,73,9,Obese,130/75,75,6567,Sleep Apnea,Anomaly,STRESS_SLEEP_6.1
